@@ -1,11 +1,11 @@
 # portfolio
 
 
-scrollreveal
+#scrollreveal
 https://scrollrevealjs.org/api/distance.html
 
-autotyped script
+#autotyped script
 https://github.com/mattboldt/typed.js/
 
-pages.github.com
+#pages.github.com
 https://pages.github.com/

@@ -83,7 +83,20 @@ section {
 
 .home-img img {
     width: 35vw;
-    border-radius: 10px
+    border-radius: 10px;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .home-content h3 {
@@ -300,6 +313,7 @@ span {
     color: var(--second-bg-color);
 }
 
+
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -337,7 +351,7 @@ span {
 }
 
 .contact form .btn {
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 
